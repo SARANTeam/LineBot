@@ -13,7 +13,7 @@ if (!is_null($events['events'])) {
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
 			$text = $event['message']['text'];
-			if(($text=='Hi') &&($text=='Hello') ){
+			if(($text=='Hi')||($text=='Hello') ){
 				$text= 'สวัสดีครับ';
 			}else{
 				$text='ทักทายกันก่อนดีไหมครับ';
