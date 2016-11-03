@@ -14,9 +14,9 @@ if (!is_null($events['events'])) {
 			// Get text sent
 			$text = $event['message']['text'];
 			if(($text=='Hi') &&($text=='Hello') ){
-				$text= 'สวัสดีครับ'
+				$text= 'สวัสดีครับ';
 			}else{
-				$text='ทักทายกันก่อนดีไหมครับ'
+				$text='ทักทายกันก่อนดีไหมครับ';
 			}
 			// Get replyToken
 			$replyToken = $event['replyToken'];
